@@ -1,0 +1,9 @@
+xpack:
+  monitoring:
+    enabled: true
+    collection:
+      enabled: true
+      interval: 30
+  security:
+    auditing:
+      enabled: true

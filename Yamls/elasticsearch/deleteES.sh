@@ -1,0 +1,9 @@
+kubectl delete -f es-discovery-svc.yaml --namespace=search &&
+kubectl delete -f es-svc.yaml --namespace=search &&
+kubectl delete -f es-master-svc.yaml --namespace=search &&
+kubectl delete -f es-master-stateful.yaml --namespace=search &&
+kubectl delete -f es-data-svc.yaml --namespace=search &&
+kubectl delete -f es-data-stateful.yaml --namespace=search &&
+kubectl delete -f es-data.yaml --namespace=search &&
+kubectl delete -f ingest.yaml --namespace=search &&
+kubectl delete -f ingest-svc.yaml --namespace=search

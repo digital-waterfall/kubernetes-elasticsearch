@@ -1,0 +1,10 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: elasticsearch-public
+spec:
+  rules: 
+  - host: elastic.api.kube.blackservices.rip
+    - backend:
+        serviceName: elasticsearch-data
+        servicePort: 9300

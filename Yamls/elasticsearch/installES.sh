@@ -1,0 +1,9 @@
+kubectl create -f es-discovery-svc.yaml --namespace=search &&
+kubectl create -f es-svc.yaml --namespace=search &&
+kubectl create -f es-master-svc.yaml --namespace=search &&
+kubectl create -f es-master-stateful.yaml --namespace=search &&
+kubectl create -f es-data-svc.yaml --namespace=search &&
+kubectl create -f es-data-stateful.yaml --namespace=search &&
+kubectl create -f es-data.yaml --namespace=search &&
+kubectl create -f ingest.yaml --namespace=search &&
+kubectl create -f ingest-svc.yaml --namespace=search 
