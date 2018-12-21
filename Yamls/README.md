@@ -1,6 +1,6 @@
 ﻿# kubernetes-elasticsearch
 
-Ready to use, lean and highly configurable Elasticsearch container image built to run on kubernetes. It is based on Pires at https://github.com/pires/docker-elasticsearch and https://github.com/pires/kubernetes-elasticsearch-cluster which is no longer in development. We use these images in production and since we need to maintain them for ourselves we have made them available for others to use at their own risk.
+Ready to use, lean and highly configurable Elasticsearch container image built to run on kubernetes. It is based on Pires at https://github.com/pires/docker-elasticsearch and https://github.com/pires/kubernetes-elasticsearch-cluster which is no longer in development. We use these files in production and since we need to maintain them for ourselves we have made them available for others to use at their own risk.
 
 A lot of the read mes here are taken directly from Pires repo.  
 
